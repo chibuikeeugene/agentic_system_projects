@@ -1,0 +1,5 @@
+/.DS_Store
+*.env
+/ecomm_env
+/event_assistant_llama_agent/models
+*.bin

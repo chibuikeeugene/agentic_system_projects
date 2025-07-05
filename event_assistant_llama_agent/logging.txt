@@ -1,0 +1,8 @@
+Viewing Queries and Events Using Logging
+Want to see what’s happening under the hood? Let’s add some logging. Add these lines to the top of starter.py:
+
+import logging
+import sys
+
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
