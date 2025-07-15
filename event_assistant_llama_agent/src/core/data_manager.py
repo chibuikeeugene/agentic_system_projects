@@ -1,6 +1,8 @@
 import datasets
 from llama_index.core.schema import Document
-
+from pathlib import Path
+from config.config import model_dir
+import os
 
 
 def load_data_and_convert_to_doc():
@@ -26,3 +28,11 @@ def load_data_and_convert_to_doc():
     ]
 
     return docs
+
+
+def load_model() -> str:
+    """load the quantized generative model """
+    for file in os.listdir(model_dir):
+        if file.endswith('.gguf'):
+            model_path_str = os.path.join(model_dir, file)
+            return model_path_str

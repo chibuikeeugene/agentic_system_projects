@@ -1,7 +1,7 @@
 from llama_index.core.tools import FunctionTool
 from llama_index.retrievers.bm25 import BM25Retriever
-from loguru import logger
 from llama_index.core.schema import Document
+from loguru import logger
 from src.core import data_manager
 
 # get Document
