@@ -3,3 +3,4 @@
 /ecomm_env
 /event_assistant_llama_agent/models
 *.bin
+*.pyc
