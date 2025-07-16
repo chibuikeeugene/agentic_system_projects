@@ -1,5 +1,5 @@
 from llama_index.core.tools import BaseTool
-from llama_index.core.agent.workflow import AgentWorkflow
+from llama_index.core.agent.workflow import AgentWorkflow, ReActAgent, FunctionAgent
 from llama_index.llms.llama_cpp import LlamaCPP
 
 

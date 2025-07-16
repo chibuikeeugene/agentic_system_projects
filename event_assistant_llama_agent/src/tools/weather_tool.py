@@ -11,9 +11,9 @@ open_weather_key = os.getenv('OPEN_WEATHER_API_KEY')
 weather_tool_spec = OpenWeatherMapToolSpec(key=open_weather_key)
 
 # convert toolspec to toollist to access the available tools and one which is need for out use-case
-tools = weather_tool_spec.to_tool_list()
-for tool in tools:
-    logger.info(tool.metadata)
+# tools = weather_tool_spec.to_tool_list()
+# for tool in tools:
+#     logger.info(tool.metadata)
    
 # create the tool
 weather_tool = weather_tool_spec.to_tool_list()[0]
