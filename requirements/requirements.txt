@@ -15,3 +15,7 @@ llama-index-tools-duckduckgo
 llama-index-retrievers-bm25
 tokenizers
 llama-index-llms-ollama
+langgraph
+langchain-ollama
+langchain-huggingface
+ipykernel

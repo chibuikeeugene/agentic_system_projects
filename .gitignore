@@ -1,6 +1,6 @@
 /.DS_Store
 *.env
-/ecomm_env
+/agent_env
 /event_assistant_llama_agent/models
 *.bin
 *.pyc
